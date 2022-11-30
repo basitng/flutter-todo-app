@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> {
     });
   }
 
+// assets
   void _handleToDoDelete(String id) {
     setState(() {
       todoList.removeWhere((item) => item.id == id);
